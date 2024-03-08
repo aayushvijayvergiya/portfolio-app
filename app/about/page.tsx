@@ -1,5 +1,4 @@
 import React from "react";
-import ContainerBlock from "../../components/ContainerBlock";
 import AboutMe from "../../components/AboutMe";
 
 export const metadata = {
@@ -10,8 +9,6 @@ export const metadata = {
 
 export default function about() {
   return (
-    // <ContainerBlock>
       <AboutMe />
-    // </ContainerBlock>
   );
 }

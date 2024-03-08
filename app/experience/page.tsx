@@ -1,5 +1,4 @@
 import React from "react";
-import ContainerBlock from "../../components/ContainerBlock";
 import Experience from "../../components/Experience";
 
 export const metadata = {
@@ -10,8 +9,6 @@ export const metadata = {
 
 export default function experience() {
   return (
-    // <ContainerBlock>
       <Experience />
-    // </ContainerBlock>
   );
 }
