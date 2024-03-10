@@ -19,7 +19,7 @@ const userData = {
       },
       {
         title: "Next Level Foodie App",
-        link: "https://github.com/aayushvijayvergiya/nextjs-foodies-app",
+        link: "https://vjs-foodies-app-aayush-vijayvergiyas-projects.vercel.app",
         imgUrl: "/next-level-foodie.png",
       },
       {

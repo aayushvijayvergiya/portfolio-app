@@ -75,7 +75,7 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/aayushvijayvergiya/nextjs-foodies-app"
+            href="https://vjs-foodies-app-aayush-vijayvergiyas-projects.vercel.app"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
