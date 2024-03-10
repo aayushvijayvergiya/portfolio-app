@@ -89,7 +89,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://drive.google.com/file/d/12acK3YfN3IVJ-NvhpydWV9JzBusO2b6K/view?usp=sharing",
+      "https://drive.google.com/file/d/1YpHg8F4nlM72XpiPohyLdOlOvNAO90li/view?usp=sharing",
     socialLinks: {
       instagram: "https://www.instagram.com/aayush.vj?igsh=MWM4dW9reHlqeWJkYw==",
       linkedin: "https://www.linkedin.com/in/aayush-vijayvergiya-439709b5",
