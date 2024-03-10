@@ -14,7 +14,7 @@ const userData = {
       },
       {
         title: "Portfolio App",
-        link: "https://aayushvijayvergiya.in",
+        link: "https://aayushvijayvergiya-portfolio.vercel.app",
         imgUrl: "/portfolio-app.png",
       },
       {
@@ -25,7 +25,7 @@ const userData = {
       {
         title: "My Web devlopment blog",
         link: "https://nextjs-page-router-blog-app.vercel.app/",
-        imgUrl: "/nextjs-log-application.png",
+        imgUrl: "/nextjs-blog-application.png",
       },
       {
         title: "Automatic email generator",
