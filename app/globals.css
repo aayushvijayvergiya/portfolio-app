@@ -31,3 +31,31 @@ body {
     text-wrap: balance;
   }
 }
+
+.github-repo {
+  /* background: #fff; */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+  margin: 0.7rem 0;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.github-repo:hover {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.10);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.github-repo h1 {
+  margin-bottom: 0.5rem;
+}
+
+.github-repo a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.github-repo a:hover {
+  color: #1e40af;
+}

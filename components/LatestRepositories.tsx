@@ -16,9 +16,9 @@ const LatestRepositories: React.FC<LatestRepositoriesProps> = ({
 //   const [repos, setRepos] = useState(repositories);
 
   return (
-    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
+    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-20">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
+        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 m-10">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
             Latest Code
           </h1>
@@ -26,6 +26,7 @@ const LatestRepositories: React.FC<LatestRepositoriesProps> = ({
           <a
             href={`https://github.com/${userData.githubUsername}`}
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
+            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -46,12 +47,12 @@ const LatestRepositories: React.FC<LatestRepositoriesProps> = ({
           </a>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-10">
         {/* Single github Repo */}
 
         {repositories &&
           repositories.map((latestRepo, idx) => (
-            <GithubRepoCard latestRepo={latestRepo} key="idx" />
+            <GithubRepoCard latestRepo={latestRepo} key={idx} />
           ))}
       </div>
     </section>
