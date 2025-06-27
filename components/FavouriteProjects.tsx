@@ -36,17 +36,17 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://github.com/aayushvijayvergiya/ticketing-app"
+            href="https://youtube-summarizer-livid.vercel.app/"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/ticketing-app.png"
-                alt="ticketing-app"
+                src="/youtube-summarizer.png"
+                alt="youtube-summarizer"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Ticketing App
+                Youtube Summarizer
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -55,18 +55,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://aayushvijayvergiya-portfolio.vercel.app/"
+            href="https://github.com/aayushvijayvergiya/ticketing-app"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/portfolio-app.png"
-                alt="portfolio"
+                src="/ticketing-app.png"
+                alt="ticketing-app"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                My portfolio app
+                Ticketing App
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02

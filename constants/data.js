@@ -8,6 +8,11 @@ const userData = {
     address: "Pune, Maharashtra, India.",
     projects: [
       {
+        title: "Youtube Summarizer",
+        link: "https://youtube-summarizer-livid.vercel.app/",
+        imgUrl: "/youtube-summarizer.png",
+      },
+      {
         title: "Ticketing App",
         link: "https://github.com/aayushvijayvergiya/ticketing-app",
         imgUrl: "/ticketing-app.png",
@@ -35,10 +40,10 @@ const userData = {
     ],
     about: {
       title:
-        "I'm a seasoned fullstack javaScript developer with a commanding 7-year track record, steering technical excellence across diverse projects and industries.",
+        "I'm a seasoned fullstack javaScript developer with a commanding 8-year track record, steering technical excellence across diverse projects and industries.",
       description: [
-        `I am a highly skilled FullStack JavaScript Developer with 7 years of industry experience, specializing in React and possessing a profound understanding of crafting intuitive and engaging user interfaces. In my current leadership role, I lead two UI teams comprising 8 talented frontend developers across two exciting projects. My dedication to team leadership involves effective coordination of resources and fostering collaboration among team members.`,
-        `My professional journey encompasses 7 years of contributing to diverse projects, including work for a world-class bank, a SAAS product, and a major MNC serving top Fortune 500 clients. My expertise spans application and web development using ReactJs, VanillaJs, MERN/MEAN stack, Python and Cloud Computing. I've played a pivotal role in developing features, bug fixes, and supporting tools, contributing to product enhancements and code optimizations.`,
+        `I am a highly skilled FullStack JavaScript Developer with 8 years of industry experience, specializing in React and possessing a profound understanding of crafting intuitive and engaging user interfaces. In my current leadership role, I lead two UI teams comprising 8 talented frontend developers across two exciting projects. My dedication to team leadership involves effective coordination of resources and fostering collaboration among team members.`,
+        `My professional journey encompasses 8 years of contributing to diverse projects, including work for a world-class bank, a SAAS product, and a major MNC serving top Fortune 500 clients. My expertise spans application and web development using ReactJs, VanillaJs, MERN/MEAN stack, Python and Cloud Computing. I've played a pivotal role in developing features, bug fixes, and supporting tools, contributing to product enhancements and code optimizations.`,
         `Additionally, I have been actively involved in cross-team code reviews and knowledge transfer, emphasizing collaboration and continuous improvement. My educational background includes a Bachelor of Technology (B.Tech.) from JSS Academy Of Technical Education, Noida. Passionate about driving innovation and efficiency in complex projects, I am eager to contribute to future endeavors and stay abreast of the latest advancements in the dynamic tech landscape.`,
       ],
       currentProject: "Tailwind Master Kit",
@@ -46,11 +51,18 @@ const userData = {
     },
     experience: [
       {
+        title: "Senior Software Engineer",
+        company: "GfK An NIQ Company.",
+        year: "2025",
+        companyLink: "https://mroads.com",
+        desc: "This is where I currently work.",
+      },
+      {
         title: "Consultant Specialist",
         company: "HSBC Technologies India.",
         year: "2024",
         companyLink: "https://mroads.com",
-        desc: "This is where I currently work.",
+        desc: "This is where I started my journey in the world of banking and finance, working for one of the top investment banks in the world.",
       },
       {
         title: "Senior Tech Associate",
