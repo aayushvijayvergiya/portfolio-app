@@ -37,7 +37,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 For any sort help / enquiry, drop a{" "}
                 <a
-                  href={`mailto:${userData.email}`}
+                  href={`mailto:${userData.email}?subject=Quick Enquiry&body=Hi Aayush, I have a quick question for you...`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail

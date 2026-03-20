@@ -33,21 +33,21 @@ export default function FavouriteProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://youtube-summarizer-livid.vercel.app/"
-            className="w-full block col-span-3 shadow-2xl"
+            href="https://huggingface.co/spaces/aayush2012/business-consultant-01"
+            className="w-full block col-span-1 md:col-span-3 shadow-2xl"
             target="_blank"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/youtube-summarizer.png"
-                alt="youtube-summarizer"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                src="/business-consultant-hf.png"
+                alt="business-consultant-hf"
+                className="w-full transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Youtube Summarizer
+                Business Consultant
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 01
@@ -56,19 +56,18 @@ export default function FavouriteProjects() {
           </a>
           {/* Single card */}
           <a
-            href="https://github.com/aayushvijayvergiya/ticketing-app"
-            className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            href="https://youtube-summarizer-livid.vercel.app/"
+            className="w-full block col-span-1 md:col-span-2 shadow-2xl h-72"
             target="_blank"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/ticketing-app.png"
-                alt="ticketing-app"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
+                src="/youtube-summarizer.png"
+                alt="youtube-summarizer"
+                className="w-full transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Ticketing App
+                Youtube Summarizer
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -76,26 +75,25 @@ export default function FavouriteProjects() {
             </div>
           </a>
           {/* Single card */}
-          <a
-            href="https://vjs-foodies-app-aayush-vijayvergiyas-projects.vercel.app"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
+            <a  
+            href="https://aayush2012-alter-ego.hf.space/"
+            className="w-full block col-span-1 sm:col-span-1 object-cover"
             target="_blank"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
+            >
+            <div className="relative overflow-hidden shadow-2xl" style={{aspectRatio: '9/16'}}>
               <img
-                src="/next-level-foodie.png"
-                alt="next-level-foodie"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
+              src="/alter-ego.jpg"
+              alt="alter-ego"
+              className="absolute inset-0 w-full h-full object-cover transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Next level foodie
+              Alter Ego
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
+              03
               </h1>
             </div>
-          </a>
+            </a>
         </div>
       </div>
     </div>

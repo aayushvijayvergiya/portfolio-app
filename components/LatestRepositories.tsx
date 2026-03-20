@@ -13,8 +13,6 @@ interface LatestRepositoriesProps {
 const LatestRepositories: React.FC<LatestRepositoriesProps> = ({
   repositories,
 }) => {
-//   const [repos, setRepos] = useState(repositories);
-
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-20">
       <div className="max-w-6xl mx-auto">
